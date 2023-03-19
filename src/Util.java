@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class Util {
     
-    public void printList(ArrayList arr) {
+    public void printList(ArrayList<Warehouse> arr) {
         for (Object o : arr) {
             System.out.println(o);
         }
